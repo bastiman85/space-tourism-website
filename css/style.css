@@ -297,11 +297,13 @@ a[target=_blank]::after {
 }
 
 .underline-indicators > * {
-  cursor: pointer;
   padding: 0.5rem 0;
   padding: var(--underline-gap, 0.5rem) 0;
   border-bottom: 0.2rem solid hsl(0 0% 100%/0);
   border-bottom: 0.2rem solid hsl(var(--clr-white)/0);
+}
+.underline-indicators > * a {
+  cursor: pointer;
 }
 
 .underline-indicators > *:hover,
