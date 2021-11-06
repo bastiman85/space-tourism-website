@@ -1,0 +1,14 @@
+/* ** HEADER ** */
+.logo {
+   margin: 1.5rem clamp(1.5rem, 5vw, 55px);
+}
+
+.primary-header {
+   align-items: center;
+
+   span {
+      @media (min-width: 35em) and (max-width: 55em) {
+         display: none;
+      }
+   }
+}
